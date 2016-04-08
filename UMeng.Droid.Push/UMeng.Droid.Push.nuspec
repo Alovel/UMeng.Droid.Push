@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>2.8.0.0</version>
+    <title>UMeng.Droid.Push</title>
+    <authors>y-z-f</authors>
+    <owners>sino</owners>
+    <licenseUrl>http://opensource.org/licenses/GPL-3.0</licenseUrl>
+    <projectUrl>https://github.com/Xamarin-Cn/UMeng.Droid.Push</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>友盟消息推送安卓SDK绑定</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Xamarin.Android UMeng</tags>
+  </metadata>
+</package>

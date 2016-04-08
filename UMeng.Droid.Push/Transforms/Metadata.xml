@@ -1,0 +1,4 @@
+<metadata>
+	<attr path="/api/package[@name='com.umeng.common.message']/class[@name='Log']/field[@name='LOG']" name="name">Logs</attr>
+	<attr path="/api/package[@name='com.umeng.message.proguard']/class[@name='F']/field[@name='f']" name="name">FC</attr>
+</metadata>
