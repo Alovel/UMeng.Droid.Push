@@ -28,6 +28,37 @@ namespace UMeng.Push.Demo
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f070003
+			public const int playLights = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int playSound = 2131165188;
+			
+			// aapt resource value: 0x7f070002
+			public const int playVibrate = 2131165186;
+			
+			// aapt resource value: 0x7f070000
+			public const int repeatingUnit = 2131165184;
+			
+			// aapt resource value: 0x7f070005
+			public const int screenOn = 2131165189;
+			
+			// aapt resource value: 0x7f070001
+			public const int specialDay = 2131165185;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -41,11 +72,82 @@ namespace UMeng.Push.Demo
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int black = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int green = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int white = 2131034112;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int activity_horizontal_margin = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int activity_vertical_margin = 2131099649;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int close_button = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int delete = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int list_item_color_bg = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int open_button = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int search_btn_background = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int search_frame = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int search_top_background = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int top_background = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int umeng_push_notification_default_large_icon = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int umeng_push_notification_default_small_icon = 2130837514;
 			
 			static Drawable()
 			{
@@ -60,8 +162,233 @@ namespace UMeng.Push.Demo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			// aapt resource value: 0x7f0a0046
+			public const int Content = 2131361862;
+			
+			// aapt resource value: 0x7f0a0047
+			public const int Datetime = 2131361863;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int Title = 2131361861;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int btnAddAlias = 2131361853;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int btnAddExclusiveAlias = 2131361855;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int btnAddTags = 2131361851;
+			
+			// aapt resource value: 0x7f0a0039
+			public const int btnEnable = 2131361849;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int btnListTags = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int btnLocalNotification = 2131361859;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int btnSearch = 2131361843;
+			
+			// aapt resource value: 0x7f0a0018
+			public const int builderLl = 2131361816;
+			
+			// aapt resource value: 0x7f0a0014
+			public const int contentLl = 2131361812;
+			
+			// aapt resource value: 0x7f0a0006
+			public const int dayTxv = 2131361798;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int edAlias = 2131361852;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int edAliasType = 2131361856;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int edExclusiveAlias = 2131361854;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int edTag = 2131361850;
+			
+			// aapt resource value: 0x7f0a0015
+			public const int edtContent = 2131361813;
+			
+			// aapt resource value: 0x7f0a0007
+			public const int edtDay = 2131361799;
+			
+			// aapt resource value: 0x7f0a001b
+			public const int edtDefaults = 2131361819;
+			
+			// aapt resource value: 0x7f0a001a
+			public const int edtFlags = 2131361818;
+			
+			// aapt resource value: 0x7f0a0009
+			public const int edtHour = 2131361801;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int edtLargeIconDrawable = 2131361823;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int edtLayoutContentId = 2131361837;
+			
+			// aapt resource value: 0x7f0a0031
+			public const int edtLayoutIconDrawableId = 2131361841;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int edtLayoutIconId = 2131361839;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int edtLayoutId = 2131361833;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int edtLayoutTitleId = 2131361835;
+			
+			// aapt resource value: 0x7f0a000a
+			public const int edtMinute = 2131361802;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int edtMonth = 2131361797;
+			
+			// aapt resource value: 0x7f0a000e
+			public const int edtRepeatingInterval = 2131361806;
+			
+			// aapt resource value: 0x7f0a000d
+			public const int edtRepeatingNum = 2131361805;
+			
+			// aapt resource value: 0x7f0a000b
+			public const int edtSecond = 2131361803;
+			
+			// aapt resource value: 0x7f0a001d
+			public const int edtSmallIconDrawable = 2131361821;
+			
+			// aapt resource value: 0x7f0a0021
+			public const int edtSoundDrawable = 2131361825;
+			
+			// aapt resource value: 0x7f0a0017
+			public const int edtTicker = 2131361815;
+			
+			// aapt resource value: 0x7f0a0013
+			public const int edtTitle = 2131361811;
+			
+			// aapt resource value: 0x7f0a0003
+			public const int edtYear = 2131361795;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int etSearch = 2131361845;
+			
+			// aapt resource value: 0x7f0a0019
+			public const int flagsLl = 2131361817;
+			
+			// aapt resource value: 0x7f0a0008
+			public const int hmsLl = 2131361800;
+			
+			// aapt resource value: 0x7f0a0044
+			public const int info = 2131361860;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int ivDeleteText = 2131361846;
+			
+			// aapt resource value: 0x7f0a001e
+			public const int largeIconDrawableLl = 2131361822;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int layoutContentLl = 2131361836;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int layoutIconDrawableLl = 2131361840;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int layoutIconLl = 2131361838;
+			
+			// aapt resource value: 0x7f0a0028
+			public const int layoutIdLl = 2131361832;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int layoutTitleLl = 2131361834;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int lv = 2131361847;
+			
+			// aapt resource value: 0x7f0a0004
+			public const int monthTxv = 2131361796;
+			
+			// aapt resource value: 0x7f0a0000
+			public const int notificationLl = 2131361792;
+			
+			// aapt resource value: 0x7f0a0048
+			public const int notification_large_icon = 2131361864;
+			
+			// aapt resource value: 0x7f0a004b
+			public const int notification_small_icon = 2131361867;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int notification_text = 2131361866;
+			
+			// aapt resource value: 0x7f0a0049
+			public const int notification_title = 2131361865;
+			
+			// aapt resource value: 0x7f0a0022
+			public const int play1Ll = 2131361826;
+			
+			// aapt resource value: 0x7f0a0025
+			public const int play2Ll = 2131361829;
+			
+			// aapt resource value: 0x7f0a000c
+			public const int repeatingLl = 2131361804;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int rlSearchFrameDelete = 2131361844;
+			
+			// aapt resource value: 0x7f0a001c
+			public const int smallIconDrawableLl = 2131361820;
+			
+			// aapt resource value: 0x7f0a0020
+			public const int soundDrawableLl = 2131361824;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int spAliasType = 2131361857;
+			
+			// aapt resource value: 0x7f0a0024
+			public const int spPlayLights = 2131361828;
+			
+			// aapt resource value: 0x7f0a0026
+			public const int spPlaySound = 2131361830;
+			
+			// aapt resource value: 0x7f0a0023
+			public const int spPlayVibrate = 2131361827;
+			
+			// aapt resource value: 0x7f0a0010
+			public const int spRepeatingUnit = 2131361808;
+			
+			// aapt resource value: 0x7f0a0027
+			public const int spScreenOn = 2131361831;
+			
+			// aapt resource value: 0x7f0a0011
+			public const int spSpecialDay = 2131361809;
+			
+			// aapt resource value: 0x7f0a000f
+			public const int specialDayLl = 2131361807;
+			
+			// aapt resource value: 0x7f0a0016
+			public const int tickerLl = 2131361814;
+			
+			// aapt resource value: 0x7f0a0012
+			public const int titleLl = 2131361810;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int top = 2131361842;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int tvStatus = 2131361848;
+			
+			// aapt resource value: 0x7f0a0002
+			public const int yearTxv = 2131361794;
+			
+			// aapt resource value: 0x7f0a0001
+			public const int ymdLl = 2131361793;
 			
 			static Id()
 			{
@@ -77,7 +404,22 @@ namespace UMeng.Push.Demo
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int activity_add_localnotification = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int activity_localnotification = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int activity_main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int activity_test = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int localnotification_item = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int notification_view = 2130903045;
 			
 			static Layout()
 			{
@@ -89,14 +431,183 @@ namespace UMeng.Push.Demo
 			}
 		}
 		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int umeng_push_notification_default_sound = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int xinwenlianbo = 2130968577;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f080004
+			public const int add_local_notification = 2131230724;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f080000
+			public const int app_name = 2131230720;
+			
+			// aapt resource value: 0x7f08002f
+			public const int builderSetting = 2131230767;
+			
+			// aapt resource value: 0x7f080007
+			public const int clear_local_notification = 2131230727;
+			
+			// aapt resource value: 0x7f08001e
+			public const int content = 2131230750;
+			
+			// aapt resource value: 0x7f080005
+			public const int create_local_notification = 2131230725;
+			
+			// aapt resource value: 0x7f080014
+			public const int day = 2131230740;
+			
+			// aapt resource value: 0x7f080021
+			public const int defaults = 2131230753;
+			
+			// aapt resource value: 0x7f080020
+			public const int flags = 2131230752;
+			
+			// aapt resource value: 0x7f080016
+			public const int hour = 2131230742;
+			
+			// aapt resource value: 0x7f080023
+			public const int largeIconDrawable = 2131230755;
+			
+			// aapt resource value: 0x7f08002b
+			public const int layoutContentId = 2131230763;
+			
+			// aapt resource value: 0x7f08002d
+			public const int layoutIconDrawableId = 2131230765;
+			
+			// aapt resource value: 0x7f08002c
+			public const int layoutIconId = 2131230764;
+			
+			// aapt resource value: 0x7f080029
+			public const int layoutId = 2131230761;
+			
+			// aapt resource value: 0x7f08002a
+			public const int layoutTitleId = 2131230762;
+			
+			// aapt resource value: 0x7f080001
+			public const int local_notification = 2131230721;
+			
+			// aapt resource value: 0x7f080009
+			public const int local_notification_content = 2131230729;
+			
+			// aapt resource value: 0x7f08000b
+			public const int local_notification_datetime = 2131230731;
+			
+			// aapt resource value: 0x7f08000e
+			public const int local_notification_repeatinginterval = 2131230734;
+			
+			// aapt resource value: 0x7f08000c
+			public const int local_notification_repeatingnum = 2131230732;
+			
+			// aapt resource value: 0x7f08000d
+			public const int local_notification_repeatingunit = 2131230733;
+			
+			// aapt resource value: 0x7f08000f
+			public const int local_notification_specialday = 2131230735;
+			
+			// aapt resource value: 0x7f08000a
+			public const int local_notification_ticker = 2131230730;
+			
+			// aapt resource value: 0x7f080008
+			public const int local_notification_title = 2131230728;
+			
+			// aapt resource value: 0x7f080015
+			public const int lunarDay = 2131230741;
+			
+			// aapt resource value: 0x7f080013
+			public const int lunarMonth = 2131230739;
+			
+			// aapt resource value: 0x7f080011
+			public const int lunarYear = 2131230737;
+			
+			// aapt resource value: 0x7f080017
+			public const int minute = 2131230743;
+			
+			// aapt resource value: 0x7f080003
+			public const int modify_local_notification = 2131230723;
+			
+			// aapt resource value: 0x7f080012
+			public const int month = 2131230738;
+			
+			// aapt resource value: 0x7f080031
+			public const int needed = 2131230769;
+			
+			// aapt resource value: 0x7f080002
+			public const int new_local_notification = 2131230722;
+			
+			// aapt resource value: 0x7f08002e
+			public const int notificationSetting = 2131230766;
+			
+			// aapt resource value: 0x7f080026
+			public const int playLights = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int playSound = 2131230759;
+			
+			// aapt resource value: 0x7f080025
+			public const int playVibrate = 2131230757;
+			
+			// aapt resource value: 0x7f08001b
+			public const int repeatingInterval = 2131230747;
+			
+			// aapt resource value: 0x7f080019
+			public const int repeatingNum = 2131230745;
+			
+			// aapt resource value: 0x7f080030
+			public const int repeatingNumHint = 2131230768;
+			
+			// aapt resource value: 0x7f08001a
+			public const int repeatingUnit = 2131230746;
+			
+			// aapt resource value: 0x7f080028
+			public const int screenOn = 2131230760;
+			
+			// aapt resource value: 0x7f080032
+			public const int search = 2131230770;
+			
+			// aapt resource value: 0x7f080033
+			public const int search_text = 2131230771;
+			
+			// aapt resource value: 0x7f080018
+			public const int second = 2131230744;
+			
+			// aapt resource value: 0x7f080022
+			public const int smallIconDrawable = 2131230754;
+			
+			// aapt resource value: 0x7f080024
+			public const int soundDrawable = 2131230756;
+			
+			// aapt resource value: 0x7f08001c
+			public const int specialDay = 2131230748;
+			
+			// aapt resource value: 0x7f08001f
+			public const int ticker = 2131230751;
+			
+			// aapt resource value: 0x7f08001d
+			public const int title = 2131230749;
+			
+			// aapt resource value: 0x7f080006
+			public const int update_local_notification = 2131230726;
+			
+			// aapt resource value: 0x7f080010
+			public const int year = 2131230736;
 			
 			static String()
 			{
@@ -104,6 +615,25 @@ namespace UMeng.Push.Demo
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f090000
+			public const int AppBaseTheme = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int AppTheme = 2131296257;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
